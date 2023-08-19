@@ -1,0 +1,19 @@
+{
+  "config": [
+    {
+      "morphline": "src/main/resources/Morphlines/temprature.conf",
+      "id": "temprature",
+      "topics": [
+        "data",
+        "temprature"
+      ]
+    },
+    {
+      "morphline": "src/main/resources/Morphlines/cpu.conf",
+      "id": "cpu",
+      "topics": [
+        "cpu"
+      ]
+    }
+  ]
+}
